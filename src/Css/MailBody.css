@@ -1,0 +1,21 @@
+.mailBody{
+  display: flex;
+
+  margin-top: 6rem;
+  flex-direction: column;
+  border: 2ps solid black;
+ margin-top: 20px;
+}
+
+.compose_btn{
+    padding: 10px 20px !important;
+    max-width: 150px !important;
+    box-shadow: 2px 2px 3px #ccc !important;
+    border-radius: 40px !important;
+    margin-top: 20px !important;
+    margin-bottom: 20px !important;
+    margin-left: 15px !important;
+    list-style: none !important;
+    color: #000;
+
+}

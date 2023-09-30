@@ -1,17 +1,19 @@
 import './App.css';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import SignUp from './Components/Auth/Signup/Signup';
-import Login from './Components/Auth/Login/Login';
+import Home from './Components/Home/Home';
+import Composemail from './Components/MailBody/Compose';
+import MailBody from './Components/MailBody/MailBody';
+import { useSelector } from 'react-redux';
+import { SelectsendmessageIs } from './Store/ComposeSlice';
 function App() {
+  const isopen=useSelector(SelectsendmessageIs);
   return (
    
     <div className="App">
- <Router>
-  <Routes>
-  <Route path='/' element={<SignUp/>}/>
-    <Route path='/login' element={<Login/>}/>
-  </Routes>
- </Router>
+      <Home/>
+      <MailBody/>
+     {
+      isopen && <Composemail/>
+     }
     </div>
   );
 }

@@ -1,0 +1,8 @@
+.Home{
+    background-image: linear-gradient(to top, #48c6ef 0%, #6f86d6 100%);
+     margin-top: 40px;
+     border-bottom: 2px solid black;
+}
+.Home h1{
+    margin-left: 60rem;
+}
