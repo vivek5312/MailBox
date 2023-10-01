@@ -1,0 +1,37 @@
+.emailbody{
+display: flex;
+align-items: center;
+padding: 0px 10px;
+border-bottom: 2px solid whitesmoke;
+height: 40px;
+margin-top: 2px;
+
+}
+.emailbody:hover{
+    box-shadow: 2px 2px 4px whitesmoke;
+    cursor: pointer;
+
+}
+.email_left{
+    display: flex;
+    align-items: center;
+   min-width: 300px;
+   flex: 20%;
+}
+.email_middle{
+    display: flex;
+    align-items: center;
+    flex: 90%;
+}
+.email_middle p b{
+    padding-left: 2px;
+}
+.email_right{
+    display: flex;
+    align-items: center;
+    flex: 10%;
+
+}
+.email_right button{
+    margin-right: 10rem;
+}

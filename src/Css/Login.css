@@ -1,0 +1,30 @@
+.login{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    flex-direction: column;
+}
+.login_img{
+   
+    background-color: whitesmoke;
+    padding: 100px;
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+}
+.login img{
+    width: 250px;
+    margin-bottom: 50px;
+}
+.login_btn{
+    background-color: #4385f4;
+    border: 0;
+    text-transform: uppercase;
+    padding: 15px 30px;
+    outline: 0;
+    color: #fff;
+    letter-spacing: 2px;
+    cursor: pointer;
+
+}
